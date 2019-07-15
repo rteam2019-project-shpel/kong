@@ -2,7 +2,7 @@ version: 3.4
 jobs:
   build:
     docker:
-      - image: idoall/ubuntu16.04-golang 
+      - image: kblr/ubuntu18.04-ansible 
     steps:
       - checkout
       - run:

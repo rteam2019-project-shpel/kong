@@ -1,0 +1,24 @@
+{
+  "name": "kong",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "eslint": "^6.0.1",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rteam2019-project-shpel/kong.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rteam2019-project-shpel/kong/issues"
+  },
+  "homepage": "https://github.com/rteam2019-project-shpel/kong#readme"
+}

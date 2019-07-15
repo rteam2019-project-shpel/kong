@@ -3,7 +3,6 @@ jobs:
   build:
     docker:
       - image: kblr/ubuntu18.04-ansible
-      - image: circleci/golang:1.11-node
     steps:
       - checkout
       - run:

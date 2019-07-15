@@ -2,7 +2,7 @@ version: 3.4
 jobs:
   build:
     docker:
-      - image: ubuntu-1604:201903-01
+      - image: ubuntu
     steps:
       - checkout
       - run:

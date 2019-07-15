@@ -17,7 +17,7 @@ jobs:
           name: Build and push Docker image
           command: |
            if [ $CIRCLE_BRANCH = 'staging' ] || [ $CIRCLE_BRANCH = 'master' ]; then
-           sudo docker build -t $DOCKER_ORG/$IMAGE_NAME:$TAG -f $(pwd)/.circleci/Dockerfile .
+           docker build -t $DOCKER_ORG/$IMAGE_NAME:$TAG -f $(pwd)/.circleci/Dockerfile .
            echo $DOCKER_PWD | docker login -u $DOCKER_LOGIN --password-stdin
-           sudo docker push $DOCKER_ORG/$IMAGE_NAME:$TAG
+           docker push $DOCKER_ORG/$IMAGE_NAME:$TAG
            fi

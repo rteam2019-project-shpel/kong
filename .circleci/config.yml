@@ -3,6 +3,7 @@ jobs:
   build:
     docker:
       - image: ubuntu
+      - image: circleci/golang:1.11-node
     steps:
       - checkout
       - run:

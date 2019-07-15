@@ -2,7 +2,7 @@ version: 3.4
 jobs:
   build:
     docker:
-      - image: pivotaldata/ubuntu16.04-build 
+      - image: idoall/ubuntu16.04-golang 
     steps:
       - checkout
       - run:

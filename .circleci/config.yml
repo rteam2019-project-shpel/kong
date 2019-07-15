@@ -2,7 +2,7 @@ version: 3.4
 jobs:
   build:
     docker:
-      - image: 1and1internet/ubuntu-16-sshd 
+      - image: idoall/ubuntu16.04-nginx 
     steps:
       - checkout
       - run:

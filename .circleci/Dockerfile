@@ -1,6 +1,6 @@
 FROM kong:latest
 WORKDIR /app
-COPY kong.yml /tmp/
+COPY kong.yml /app/
 COPY . .
 EXPOSE 8000
 EXPOSE 8443

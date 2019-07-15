@@ -1,6 +1,6 @@
 FROM kong:latest
 WORKDIR /app
-COPY kong.yml ./.circleci
+COPY kong.yml .
 COPY . .
 EXPOSE 8000
 EXPOSE 8443
